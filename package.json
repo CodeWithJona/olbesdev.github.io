@@ -1,18 +1,17 @@
 {
-  "homepage":"http://www.olbesdev.xyz",
+  "homepage": "http://www.olbesdev.xyz",
   "name": "olbesdev.github.io",
   "version": "0.1.0",
   "private": true,
   "scripts": {
-    "dev": "next dev", 
+    "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "predeploy": "npm run build",
+    "predeploy": "pnpm run build",
     "deploy": "gh-pages -d build",
     "lint": "next lint"
   },
   "dependencies": {
-    "gh-pages": "^6.0.0",
     "next": "latest",
     "react": "latest",
     "react-dom": "latest"
@@ -21,6 +20,7 @@
     "autoprefixer": "latest",
     "eslint": "latest",
     "eslint-config-next": "latest",
+    "gh-pages": "^6.0.0",
     "postcss": "latest",
     "tailwindcss": "latest"
   }
